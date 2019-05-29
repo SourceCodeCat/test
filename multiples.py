@@ -40,9 +40,12 @@ for n in range(1,101):
     # calculate the key 
     k = (8 - int(calc_key_component(d_r_3)+calc_key_component(d_r_5))) 
 
-    try:
+    # we have the constraint of using only 1 'if'...so save the default value 
+    msg = n
+    if k in msgs:
         #IF the key is in the dictionary then retrieve the correct message for the key
-        print(msgs[k])
-    except KeyError:
-        # else the number is not multiple of either 3 or 5 so we print  the number 'n'
-        print(n)
+        # and replace msg with the custom message...
+        msg = msgs[k]
+    
+
+    print(msg)
