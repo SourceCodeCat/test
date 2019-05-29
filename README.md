@@ -6,4 +6,4 @@ There are two versions of  the code:
 
 2. Without any  'if' clause, as the name depicts no IF was used whatsoever,
    That version of the code can be downloaded or looked with the following tag: "**with_one_if_clause**"
-   also it can be seen in the release tab. This was not requested but actually was the first version of the code
+   also it can be seen in the releases tab. This was not requested but actually was the first version of the code
