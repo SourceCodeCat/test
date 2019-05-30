@@ -1,9 +1,10 @@
-# test
-There are two versions of  the code:
+# Linio Code Challenge
+The code is written  in Python3 syntax. The repo contains two files:
+* **multiples.py**
+   The program is executed with the following command: *python3 multiples.py*  and will print and array replacing  the numbers multiple of 3,5,8 or both and leaving the rest of the numbers as they are.
+   as follows: multiple of 3 = Linio, multiples of 5= IT or if number is multiple of 3 and 5 = Linianos
 
-1. With only  1 'if' clause, **which is what was requested**
-   That version of the code is tagged as "**without_if_clause**"  which is also at the HEAD
+* **my_unittest.py**
+   Runs 3 tests over the methods of the program, veryfying the returned values againts reference values, if they don't match
+   then the test fails. The unit test is executed with the following command: *python3 my_unittest.py*
 
-2. Without any  'if' clause, as the name depicts no IF was used whatsoever,
-   That version of the code can be downloaded or looked with the following tag: "**with_one_if_clause**"
-   also it can be seen in the releases tab. This was not requested but actually was the first version of the code
