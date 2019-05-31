@@ -1,4 +1,4 @@
-# Linio Code Challenge
+# Code Challenge
 The code is written  in Python3 syntax. The repo contains two files:
 * **multiples.py**
    The program is executed with the following command: *python3 multiples.py*  and will print and array replacing  the numbers multiple of 3,5,8 or both and leaving the rest of the numbers as they are.
